@@ -32,7 +32,7 @@ pipeline {
             steps {
                 sh '''
                 docker rm -f ${APP_NAME} || true
-                docker run -d --name ${APP_NAME} -p 8080:8080 ${IMAGE_NAME}
+                docker run -d --name demoapp -p 9090:8080 demoapp:latest
                 '''
             }
         }
