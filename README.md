@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # demo-mvn-docker-jenkins
 
 Small DevOps-ready demo project:
@@ -35,3 +36,6 @@ Create a Pipeline job:
 - Pipeline script from SCM
 - Git repo: your repo URL
 - Script path: Jenkinsfile
+=======
+# jenkins-mini-project
+>>>>>>> cfb2df0de3d74fdea631c52fd1ad81120aa5cfe3
